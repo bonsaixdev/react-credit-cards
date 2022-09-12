@@ -128,10 +128,6 @@ class ReactCreditCards extends React.Component {
       month += '•';
     }
 
-    if (year.length > 2) {
-      year = year.substr(2, 4);
-    }
-
     while (year.length < 2) {
       year += '•';
     }
